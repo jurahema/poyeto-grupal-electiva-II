@@ -1,0 +1,35 @@
+# Resultado compilado
+/Dist
+/node_modules
+
+# Trozas
+trozas
+*..log
+npm-debug.log*
+pnpm-debug.log*
+hilo depurado.log*
+yarn-error.log*
+lerna-debug.log*
+
+# Sistema operativo
+.DS_Store
+
+# Pruebas
+/cobertura
+/.nyc_output
+
+# IDE y editores
+/.idea
+.proyecto
+.classpath
+.c9/
+*.lanzar
+.Configuración/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+! .vscode/settings.json
+! .vscode/tasks.json
+! .vscode/launch.json
+! .vscode/extensions.json
