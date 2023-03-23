@@ -1,0 +1,25 @@
+módulo. exportaciones = {
+  analizador: '@typescript-eslint/parser',
+  parserOptions: {
+    proyecto: 'tsconfig.json',
+    tsconfigRootDir: __dirname,
+    sourceType: 'módulo',
+  },
+  plugins: ['@typescript-eslint/eslint-plugin'],
+  Amplía: [
+    'plugin:@typescript-eslint/recommended',
+    'plugin:más bonito/recomendado',
+  ],
+  raíz: verdadero,
+  ENV: {
+    nodo: verdadero,
+    Broma: cierto,
+  },
+  ignorePatterns: ['.eslintrc.js'],
+  Reglas: {
+    '@typescript-eslint/interface-name-prefix': 'off',
+    '@typescript-eslint/explicit-function-return-type': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    «@typescript-eslint/no-explicit-any»: «off»,
+  },
+};
